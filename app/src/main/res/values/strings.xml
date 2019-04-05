@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Justfood</string>
+    <string name="welcome_to_justfood">Welcome to justfood</string>
+    <string name="login_here">Login here!</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="register_here">Register here</string>
+    <string name="new_member">New member???</string>
+    <string name="login">Login</string>
+    <string name="enter_password">Enter password</string>
+    <string name="hello_welcome">Hello!!! Welcome....</string>
+    <string name="come_become_a_member">Come become a member....</string>
+    <string name="register">Register</string>
+    <string name="enter_email_id">enter Email id</string>
+    <string name="enter_name">enter Name</string>
+    <string name="enter_address">enter Address</string>
+</resources>

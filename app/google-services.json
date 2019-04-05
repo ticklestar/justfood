@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "501129838802",
+    "firebase_url": "https://justfood-4b0ae.firebaseio.com",
+    "project_id": "justfood-4b0ae",
+    "storage_bucket": "justfood-4b0ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501129838802:android:6fe15e49f71c16d0",
+        "android_client_info": {
+          "package_name": "com.example.justfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501129838802-q9vi4cc4af7gau4ln12hcfff6n5ko7gr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.justfood",
+            "certificate_hash": "e22c399bf13641f9f34eb0d067585513c22f1566"
+          }
+        },
+        {
+          "client_id": "501129838802-vn9rgrkk7lvchsnaginog3o166riel73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc-bKLKXp9mTgZcf-JztWPWVjpHYHVcRo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501129838802-vn9rgrkk7lvchsnaginog3o166riel73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

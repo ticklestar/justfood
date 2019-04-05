@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img7"
+    tools:context=".registrationpage">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/hello_welcome"
+            android:textAlignment="center"
+
+            android:textColor="@android:color/white"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/come_become_a_member"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="85dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/Rmobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_weight="2"
+            android:autofillHints=""
+            android:ems="10"
+            android:fontFamily="sans-serif-thin"
+            android:hint="@string/enter_mobile_number"
+            android:inputType="phone"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="10"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true" />
+
+        <EditText
+            android:id="@+id/Rname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="sans-serif-thin"
+            android:hint="enter Name"
+            android:inputType="text"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="10"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/Remail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="sans-serif-thin"
+            android:hint="@string/enter_email_id"
+            android:inputType="textEmailAddress"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="10"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/Raddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="sans-serif-thin"
+            android:hint="enter Address"
+            android:inputType="text"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="10"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true" />
+
+        <EditText
+            android:id="@+id/Rpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="sans-serif-thin"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword"
+            android:textAlignment="textStart"
+            android:textColorHint="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_singleLineEllipsis="true"
+            android:autofillHints="" />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/register1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@android:color/black"
+            android:text="@string/register"
+            android:textColor="@android:color/white"/>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
